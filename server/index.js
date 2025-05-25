@@ -12,7 +12,7 @@ import router from './routes/message.js'
 import message from './models/message.js';
 
 //cofiguración mongoose
-var url = 'mongodb+srv://dmendezmaza84:s7InGbp5DmJIBUvM@cluster0.azkurgn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; //url de conexión para MongoDB en Atlas
+var url = 'mongodb+srv://[user]:[pass]@cluster0.azkurgn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; //url de conexión para MongoDB en Atlas
 mongoose.Promise = global.Promise;
 const app = express();
 const PORT = 4000;
