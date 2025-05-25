@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: #a8ff78;
+  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+  background: linear-gradient(to right, #78ffd6, #a8ff78);
+}
+
+/* titulo */
+#title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+
+  letter-spacing: 2px;
+}
+
+/* contenedor de los mensajes */
+#content-chat{
+  height: 350px;
+  overflow-y: scroll;
+}
